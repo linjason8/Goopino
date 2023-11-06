@@ -4,7 +4,7 @@ const axios = require('axios')
 const { ActionRowBuilder, ButtonBuilder, ButtonStyle, Events } = require('discord.js');
 
 const { MongoClient, ServerApiVersion, ReturnDocument } = require('mongodb');
-const uri = "mongodb+srv://jason:JasonPassword123@cluster0.8njyfao.mongodb.net/?retryWrites=true&w=majority";
+const uri = ""; // need token
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 const jsdom = require("jsdom");
