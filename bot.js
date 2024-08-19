@@ -12,7 +12,8 @@ const e = require('express');
 const { JSDOM } = jsdom;
 const dom = new JSDOM(`<!DOCTYPE html><p></p>`);
 
-const bot = new eris.Client('MTA1Nzg2MDY3Nzk0OTIxNDc5MA.GGywH9.hJJpeEP3rS0Cv5WQOv8GeLdV00cz1fzDvvJMjQ');
+const key = "" /* API KEY */;
+const bot = new eris.Client(key);
 
 const errorMsg = ":warning:\u200b \u200b Incorrect usage: **!help [command]** for more info";
 let songsFull = new Array(100);
